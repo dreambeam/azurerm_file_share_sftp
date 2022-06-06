@@ -6,7 +6,7 @@ provider "azurerm" {
   tenant_id       = "${var.tenant_id}"
 }
 
-"terraform" {
+terraform {
   required_version = "~> 0.11"  
 }
 
